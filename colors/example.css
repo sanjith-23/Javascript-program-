@@ -1,0 +1,92 @@
+body{
+    background: rgb(247, 241, 170);
+    margin: 0;
+}
+.main{
+    background: rgb(218, 213, 149);
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+} 
+ul{
+    font-size: 30px;
+    list-style-type: none;
+}
+.text{
+    text-align: center;
+}
+.hex{
+    text-align: center;
+}
+.container{
+    display:grid;
+    grid-template-columns: repeat(5,200px);
+    grid-template-rows: repeat(3,150px);
+    justify-content: center;
+}
+.container p{
+    visibility: hidden;
+}
+.a{
+    background: red;
+    border: 1px solid black;
+}
+.b{
+    background: green;
+    border: 1px solid black;
+}
+.c{
+    background: blue;
+    border: 1px solid black;
+}
+.d{
+    background: indigo;
+    border: 1px solid black;
+}
+.e{
+    background: orange;
+    border: 1px solid black;
+}
+.f{
+    background: yellow;
+    border: 1px solid black;
+}
+.g{
+    background: violet;
+    border: 1px solid black;
+}
+.h{
+    background: black;
+    border: 1px solid black;
+}
+.i{
+    background: maroon;
+    border: 1px solid black;
+}
+.j{
+    background: gray;
+    border: 1px solid black;
+}
+.k{
+    background: olive;
+    border: 1px solid black;
+}
+.m{
+    background: cyan;
+    border: 1px solid black;
+}
+.n{
+    background: pink;
+    border: 1px solid black;
+}
+.o{
+    background: teal;
+    border: 1px solid black;
+}
+.p{
+    background:white;
+    border: 1px solid black;
+}
